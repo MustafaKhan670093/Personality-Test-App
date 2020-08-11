@@ -2,18 +2,13 @@ import 'package:flutter/material.dart';
 import './quiz.dart';
 import './result.dart';
 
-//void indicates that main will return no output.
 void main() {
   runApp(MyApp());
 }
 
-// void main() => runApp(MyApp());      This is another way to tell dart that
-//this is a function with only one expression that needs to be executed.
-
 class MyApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return _MyAppState();
   }
 }
